@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.won{
+    background-image:linear-gradient(to bottom,black,rgb(215,22,0));
+    color: black;
+    
+    
+}
+a{
+    color:black;
+}
+a:hover, i:hover{
+    color:#fff;
+    transition: transform .5s ease;
+    transform: translateY(-5px);
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+}
+.lol .wol{
+    
+    
+}
+
+.play{
+    height:67%;
+    margin-top:20% ;
+    animation: pulsate 2s ease;
+    animation-iteration-count: infinite;
+    opacity: .3;
+    color:#000;
+    
+    
+}
+@-webkit-keyframes pulsate{
+    0%{
+        opacity: .2;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:.2;
+    }
+}
+.about{
+   height:100vh;
+   overflow:scroll;
+   background-image:linear-gradient(to bottom,black,rgb(215,22,0));
+}
+.god{
+    height: 100%;
+    width:100%;
+
+}
+.text-info{
+    margin-top: 20px;
+}
+.done{
+    margin-top: 30px;
+    ;
+}
